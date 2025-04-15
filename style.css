@@ -1,0 +1,46 @@
+body {
+    background-color: #36393e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type:disc;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+ol > li {
+    margin-top: 25px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+li::marker {
+    color: white;
+}
+
+.list {
+    color: white;
+}
+
+.header {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    font-size: large;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nav > a:visited {
+    color: white;
+}
